@@ -1,0 +1,234 @@
+[
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "appstream2-36fb080bb8-us-east-1-938173066598",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "aws-cloudtrail-logs-938173066598-6e41621a",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4gestaocustos",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4it-assinatura-email",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4it-azcorp-infra",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4it-cur-billing",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4it-file-repo-lab",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4it-hsp",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-west-2"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4it-prowler",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4it-sapv",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "bs4it-veeam",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-west-2"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "cdk-hnb659fds-assets-938173066598-sa-east-1",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "sa-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "cf-templates-wrjdmql29nco-sa-east-1",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "sa-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "cf-templates-wrjdmql29nco-us-east-1",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "cf-templates-wrjdmql29nco-us-west-2",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-west-2"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "codepipeline-sa-east-1-233312259741",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "sa-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "elasticbeanstalk-sa-east-1-938173066598",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "sa-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "elasticbeanstalk-us-west-2-938173066598",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-west-2"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "premierpet-backups-veeam",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "s3nlb-wml",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-west-2"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "sagemaker-studio-938173066598-k1ph8m1lt4k",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "sagemaker-studio-938173066598-kuxv09ofdh9",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "sagemaker-us-east-1-938173066598",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "sapv-bs4it",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "sa-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "wml-files",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "wml-fotos",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "wml-oregon",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-west-2"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "wml-web",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    },
+    {
+        "account_id": "938173066598",
+        "service": "S3",
+        "name": "wmlcloudfront",
+        "type": "Bucket",
+        "state": "Active",
+        "region": "us-east-1"
+    }
+]

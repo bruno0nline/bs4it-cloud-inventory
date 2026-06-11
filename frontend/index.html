@@ -1,32 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>BS4IT Cloud Inventory</title>
+  <meta charset="UTF-8">
+  <title>BS4IT Cloud Inventory</title>
 </head>
 <body>
 
-<h1>BS4IT Cloud Inventory</h1>
+  <h1>BS4IT Cloud Inventory</h1>
 
-<p>Primeira versão do portal.</p>
+  <p id="summary">Carregando inventário...</p>
 
-<table border="1">
-    <tr>
+  <table border="1">
+    <thead>
+      <tr>
         <th>Conta</th>
-        <th>Instância</th>
-        <th>Estado</th>
+        <th>Serviço</th>
+        <th>Nome</th>
         <th>Tipo</th>
+        <th>Estado</th>
         <th>Região</th>
-    </tr>
+      </tr>
+    </thead>
+    <tbody id="inventory-table"></tbody>
+  </table>
 
-    <tr>
-        <td>BS4IT</td>
-        <td>srv-monitor</td>
-        <td>running</td>
-        <td>t3.medium</td>
-        <td>us-east-1</td>
-    </tr>
+  <script>
+    fetch("./inventory.json")
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("summary").innerText =
+          `Total de recursos encontrados: ${data.length}`;
 
-</table>
+        const table = document.getElementById("inventory-table");
+
+        data.forEach(item => {
+          const row = document.createElement("tr");
+
+          row.innerHTML = `
+            <td>${item.account_id}</td>
+            <td>${item.service}</td>
+            <td>${item.name}</td>
+            <td>${item.type}</td>
+            <td>${item.state}</td>
+            <td>${item.region}</td>
+          `;
+
+          table.appendChild(row);
+        });
+      })
+      .catch(error => {
+        document.getElementById("summary").innerText =
+          "Erro ao carregar inventory.json";
+        console.error(error);
+      });
+  </script>
 
 </body>
 </html>
